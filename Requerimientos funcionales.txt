@@ -3,39 +3,29 @@ Documento de Requerimientos funcionales
 -- Requerimientos funcionales
 
 	- Login 
-
-RF01 	Crear una cuenta
+RF 	Crear una cuenta
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad (y la obligación si quiere concretar una compra) de registrar un usuario válido que lo identifique.
 
-RF 03 Eliminar una cuenta
-Caracterización: Opcional
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad de eliminar los datos personales del sistema, incluyendo toda la información personal, a excepción de aquellos que lo identifican como único dentro del sistema. Esta opción no debe ser reversible y los identificadores deben quedar inhabilitados para cualquier otro usuario nuevo o existente.
-
-RF 04 Iniciar sesión
+RF  Iniciar sesión
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile de ingresar sus credenciales de usuario para poder identificarse en el mismo. Si bien se puede navegar y revisar artículos dentro del sistema, para poder finalizar una compra el usuario debe contar con credenciales válidas para confirmar la transacción.
 
-
-
-RF 06 Cerrar sesión en otros dispositivos
+RF  Eliminar una cuenta
 Caracterización: Opcional
 Actor: Usuario
-Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile, siempre y cuando tenga credenciales confirmadas con un usuario, de tener un listado de dispositivos en los cuales sus credenciales se encuentren ingresadas y debe poder contar con la opción de cerrar su sesión en otros dispositivos remotamente.
-
-
+Descripción: El usuario debe tener la posibilidad de eliminar los datos personales del sistema, incluyendo toda la información personal, a excepción de aquellos que lo identifican como único dentro del sistema. Esta opción no debe ser reversible y los identificadores deben quedar inhabilitados para cualquier otro usuario nuevo o existente.
 
 	- Inicio
 
-RF 07 Página de inicio 
+RF  Página de inicio 
 Caracterización: Esencial
 Actor: Usuario
 Descripción: La aplicación debe contar con una página principal que contenga según corresponda, recomendaciones generales si no se ha iniciado sesión, y recomendaciones personalizadas si se ha iniciado sesión
 
-RF 08 Página de inicio mobile
+RF  Página de inicio mobile
 Caracterización: Esencial
 Actor: Usuario
 Descripción: La aplicación debe poder adaptarse a un formato de pantalla de navegador web en formato móvil de tal forma que responda de igual manera que en un navegador de escritorio.
@@ -66,12 +56,40 @@ Descripción: El listado de categorías se debe poder aplicar filtro según cant
 
 	- Productos 
 	- Vender
+
+RF Publicar un producto
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de acceder a un asistente o similar que le permita completar información sobre un producto que tiene a su disposición para la venta. 
+
+RF Cancelar publicación de un producto
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de poder cancelar la publicación de un producto que tiene a la venta, siempre y cuando este tenga un stock positivo.
+
+RF Editar un producto a la venta
+Caracterización: Esencial/Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de editar una publicación de un producto que ya haya publicado, inclusive si este tuviese un stock de cero.
+
 	- Mi carrito /*Mínimo entregable para el 16-10*/
+	
+Requerimiento funcional 
+
 	- Mi perfil
 
-RF02 Editar mi perfil 
+RF Editar mi perfil 
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de editar sus datos personales salvo aquellos que lo identifiquen como único dentro del sistema, ya sea dirección de correo electrónico, número de teléfono, dirección de facturación y de envíos, métodos de pago, foto de perfil, entre otros. 
 	
 	- Cerrar sesión
+RF Cerrar sesión
+Caracterización: Esencial 
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de cerrar sesión en cualquier momento durante su navegación. 
+
+RF Cerrar sesión en otros dispositivos
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile, siempre y cuando tenga credenciales confirmadas con un usuario, de tener un listado de dispositivos en los cuales sus credenciales se encuentren ingresadas y debe poder contar con la opción de cerrar su sesión en otros dispositivos remotamente.
