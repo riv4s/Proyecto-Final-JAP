@@ -72,6 +72,17 @@ Caracterización: Esencial/Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de editar una publicación de un producto que ya haya publicado, inclusive si este tuviese un stock de cero.
 
+RF Pausar una publicación
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de cancelar una publicación de un producto que haya publicado, incluso si este tuviese un stock de cero. 
+
+RF Stock Cero
+Caracterización: Opcional
+Actor: Sistema
+Descripción: El sistema no debe permitir agregar al carrito agregar un artículo de un producto del cual el stock es cero. 
+
+
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	
 RF Agregar al carrito
@@ -85,6 +96,24 @@ Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de visualizar el estado actual del carrito de compras con los elementos que haya seleccionado, o ver un carrito vacío en caso de que no haya seleccionado ningún producto.
 
 RF Finalizar compra
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de concretar la compra con los items que tiene dentro de su carrito, pero para esto debe contar con credenciales válidas. 
+
+RF Eliminar un producto del carrito
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de eliminar un articulo del carrito siempre y cuando este exista dentro del mismo.
+
+RF Vaciar carrito
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de eliminar todos los articulos del carrito siempre y cuando tenga al menos un articulo en el mismo.
+
+RF Modificar cantidad de un articulo
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de cambiar la cantidad de existencias de un artículo en específico que tiene dentro del carrito. 
 
 	- Mi perfil
 
