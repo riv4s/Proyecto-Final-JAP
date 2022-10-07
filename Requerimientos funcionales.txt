@@ -3,6 +3,7 @@ Documento de Requerimientos funcionales
 -- Requerimientos funcionales
 
 	- Login 
+	
 RF 	Crear una cuenta
 Caracterización: Esencial
 Actor: Usuario
@@ -24,12 +25,6 @@ RF  Página de inicio
 Caracterización: Esencial
 Actor: Usuario
 Descripción: La aplicación debe contar con una página principal que contenga según corresponda, recomendaciones generales si no se ha iniciado sesión, y recomendaciones personalizadas si se ha iniciado sesión
-
-RF  Página de inicio mobile
-Caracterización: Esencial
-Actor: Usuario
-Descripción: La aplicación debe poder adaptarse a un formato de pantalla de navegador web en formato móvil de tal forma que responda de igual manera que en un navegador de escritorio.
-
 
 	- Categorías /*(Incluido en el documento template)*/
 
@@ -55,6 +50,19 @@ Actor: Usuario
 Descripción: El listado de categorías se debe poder aplicar filtro según cantidad mínima y máxima de cantidad de productos por categoría. 
 
 	- Productos 
+	
+RF Detalles de un producto
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de ingresar a los detalles de un producto al seleccionarlo directamente. 
+
+RF Búsqueda de un producto
+Caracterización: Esencial
+Actor: Usuario 
+Descripción: El usuario debe tener la posibilidad de poder buscar productos según palabras clave que ingresa en un campo destinado a la búsqueda. 
+
+
+	
 	- Vender
 
 RF Publicar un producto
