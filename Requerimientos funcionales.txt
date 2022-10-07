@@ -74,7 +74,17 @@ Descripción: El usuario debe tener la posibilidad de editar una publicación de
 
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	
-Requerimiento funcional 
+RF Agregar al carrito
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de agregar cualquier producto a un carrito de compras único por sesión, se encuentre o no conectado con credenciales válidas.
+
+RF Ver carrito
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de visualizar el estado actual del carrito de compras con los elementos que haya seleccionado, o ver un carrito vacío en caso de que no haya seleccionado ningún producto.
+
+RF Finalizar compra
 
 	- Mi perfil
 

@@ -21,3 +21,5 @@
 		- Se crean archivos independientes para requerimientos funcionales y casos de uso
 		- Se crea el archivo independiente para el historial de cambios
 		- Se agregan los primeros requerimientos funcionales para "vender"
+		- Se agregan los primeros requerimientos funcionales para "carrito"
+		- Se modifica el requerimiento no funcional que explicitaba la utilización de MercadoPago para concretar el proceso de venta de uno o varios productos.

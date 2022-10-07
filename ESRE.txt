@@ -17,26 +17,7 @@ E-Mercado
 	- Especificación de requerimientos no funcionales 
 
 -- Historial de cambios
-
-	- Versión 0.01
-	- Fecha 06/OCT/22
-	- Responsable: Mauricio Rivas
-		- Creación del documento y primeros pasos.
-		- Primera redacción de la Introducción.
-		- Primera redacción de la Introducción.	
-		- Primeras entradas de la sección "Definiciones, siglas y abreviaturas"
-		- Primera redacción de los Requerimientos Funcionales
-		- Primera redacción de los casos de uso
-		- Primera redacción de los Requerimientos no funcionales
-	- Versión 0.02
-	- Fecha 07/OCT/22
-	- Responsable: Mauricio Rivas
-		- Se agregan los requerimientos funcionales, casos de uso y requerimientos no funcionales que se encuentran en la template original
-		- Se agregan los requerimientos no funcionales que se trabajaron en la clase del 06/OCT/22
-	Versión 0.03
-	- Fecha 07/OCT/22
-	- Responsable: Mauricio Rivas
-		- Se crean archivos independientes para requerimientos funcionales y casos de uso
+	[El historial de cambios se encuentra disponible en otro archivo TXT]
 
 
 -- Introducción 
@@ -117,7 +98,7 @@ Nombre: Seguridad de pago
 Atributo de calidad: Seguridad
 Caracterización: Esencial
 Requerimientos funcionales relacionados:
-Notas: Que el sitio web utiliza MercadoPago para confirmar las transacciones.
+Notas: La página web debe contar con estándares de seguridad que aseguren que los datos del usuario referidos a datos financieros no puedan ser accedidos por nadie ni dentro ni fuera de la empresa
 
 RNF08
 Nombre: Seguridad de usuario
