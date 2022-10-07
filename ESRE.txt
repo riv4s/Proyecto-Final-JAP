@@ -1,4 +1,4 @@
-Nombre de la empresa: R QA 
+Nombre de la empresa: R QA
 
 Mauricio Rivas - 06-10-2022
 
@@ -171,7 +171,6 @@ Atributo de calidad: Mantenibilidad
 Caracterización: Esencial
 Requerimientos funcionales relacionados:
 Notas: Que el sistema cuente con identificadores que sean de uso común, que simplifique la realización de cambios y mantenimiento general del sistema.
-
 
 
 RNF10
