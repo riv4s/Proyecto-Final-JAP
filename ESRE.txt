@@ -28,6 +28,11 @@ E-Mercado
 		- Primera redacción de los Requerimientos Funcionales
 		- Primera redacción de los casos de uso
 		- Primera redacción de los Requerimientos no funcionales
+	- Versión 0.2
+	- Fecha 07/OCT/22
+	- Responsable: Mauricio Rivas
+		- Se agregan los requerimientos funcionales, casos de uso y requerimientos no funcionales que se encuentran en la template original
+		- Se agregan los requerimientos no funcionales que se trabajaron en la clase del 06/OCT/22
 
 
 -- Introducción 
@@ -75,6 +80,27 @@ Descripción: El usuario debe tener la posibilidad en cualquier momento de la na
 
 	- Inicio
 	- Categorías /*(Incluido en el documento template)*/
+RF-CT01
+Nombre: Vista categorías
+Caracterización: Esencial
+Actor: Usuario
+Descripción: En la vista del listado de categorias se deberán desplegar todas las categorías existentes en el sistema, con sus respectivos datos: nombre, cantidad de productos, ilustración y desscripción.
+
+RF-CT02
+Nombre: Aplicar orden categorías
+Caracterización: Esencial
+Actor: Usuario
+Descripción El listado de categorías se debe poder depslegar según 3 criterios: 
+		- Orden ascendente alfabético según el nombre.
+		- Orden descendente alfabético según el nombre.
+		- Orden descendente en cantidad de productos por categoría.
+	
+RF-CT03 
+Nombre: Aplicar filtro en categorías
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El listado de categorías se debe poder aplicar filtro según cantidad mínima y máxima de cantidad de productos por categoría. 
+
 	- Productos 
 	- Vender
 	- Mi carrito /*Mínimo entregable para el 16-10*/
@@ -88,6 +114,21 @@ Descripción: El usuario debe tener la posibilidad de editar sus datos personale
 -- Casos de uso
 
 	- Login
+
+CU01
+Nombre Autenticación en el sitio
+Requerimientos: RF01 (¿?)
+Prioridad: Esencial
+Lista de actores: Usuario
+Precondiciones: el usuario se encuentra en la vista de autenticación.
+Curso básico: 
+	1 - El usuario ingresa el nombre de usuario en el campo correspondiente.
+	2 - El usuario ingresa la contraseña en el campo correspondiente.
+	3 - El sitio redirige a la potada en el caso de autenticación existosa
+Curso alternativo 1
+	3 - En caso que la autenticación no haya sido exitosa, el sitio alerta al usuario deque el usuario y/o contraseña no son válidos. 
+	
+	
 	- Inicio
 	- Categorías
 	- Productos 
@@ -97,6 +138,13 @@ Descripción: El usuario debe tener la posibilidad de editar sus datos personale
 	- Cerrar sesión
 
 -- Requerimientos no funcionales 
+
+RNF00
+Nombre: Velocidad de autenticación
+Atributo de calidad: eficiencia
+Caracterización: Esencial
+Requerimientos funcionales relacionados: RF01(¿?)
+Descripción: Una vez que el usuario ingresa los campos requeridos y selecciona ingresar, el sitio debe tener una rápida respuesta n la autenticación (se considera rápida respuesta si el tiempo es menor a 1 segundo)
 
 RNF01 
 Nombre: Velocidad de carga de la página
