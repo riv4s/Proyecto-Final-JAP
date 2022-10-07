@@ -33,6 +33,10 @@ E-Mercado
 	- Responsable: Mauricio Rivas
 		- Se agregan los requerimientos funcionales, casos de uso y requerimientos no funcionales que se encuentran en la template original
 		- Se agregan los requerimientos no funcionales que se trabajaron en la clase del 06/OCT/22
+	Versión 0.03
+	- Fecha 07/OCT/22
+	- Responsable: Mauricio Rivas
+		- Se crean archivos independientes para requerimientos funcionales y casos de uso
 
 
 -- Introducción 
@@ -47,96 +51,11 @@ E-Mercado
 	- B2B Business to business: "Comercialización de productos o servicios con una empresa o profesional como cliente"
 	- B2C	Business to Customer/consumer: "Comercialización de productos y servicios con una persona particular como cliente"
 
--- Requerimientos funcionales
-
-	- Login 
-
-RF01 	Crear una cuenta
-Caracterización: Esencial
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad (y la obligación si quiere concretar una compra) de registrar un usuario válido que lo identifique.
-
-RF 03 Eliminar una cuenta
-Caracterización: Opcional
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad de eliminar los datos personales del sistema, incluyendo toda la información personal, a excepción de aquellos que lo identifican como único dentro del sistema. Esta opción no debe ser reversible y los identificadores deben quedar inhabilitados para cualquier otro usuario nuevo o existente.
-
-RF 04 Iniciar sesión
-Caracterización: Esencial
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile de ingresar sus credenciales de usuario para poder identificarse en el mismo. Si bien se puede navegar y revisar artículos dentro del sistema, para poder finalizar una compra el usuario debe contar con credenciales válidas para confirmar la transacción.
-
-RF 05 Cerrar sesión
-Caracterización: Esencial
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile de revocar las credenciales otorgadas al equipo con el cual está navegando. Luego de cerrar sesión es importante que el usuario no vuelva a tener acceso al carrito pero que de cualquier manera pueda seguir navegando por el sistema.
-
-RF 06 Cerrar sesión en otros dispositivos
-Caracterización: Opcional
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile, siempre y cuando tenga credenciales confirmadas con un usuario, de tener un listado de dispositivos en los cuales sus credenciales se encuentren ingresadas y debe poder contar con la opción de cerrar su sesión en otros dispositivos remotamente.
-
-
-
-	- Inicio
-	
-	- Categorías /*(Incluido en el documento template)*/
-RF-CT01
-Nombre: Vista categorías
-Caracterización: Esencial
-Actor: Usuario
-Descripción: En la vista del listado de categorias se deberán desplegar todas las categorías existentes en el sistema, con sus respectivos datos: nombre, cantidad de productos, ilustración y desscripción.
-
-RF-CT02
-Nombre: Aplicar orden categorías
-Caracterización: Esencial
-Actor: Usuario
-Descripción El listado de categorías se debe poder depslegar según 3 criterios: 
-		- Orden ascendente alfabético según el nombre.
-		- Orden descendente alfabético según el nombre.
-		- Orden descendente en cantidad de productos por categoría.
-	
-RF-CT03 
-Nombre: Aplicar filtro en categorías
-Caracterización: Esencial
-Actor: Usuario
-Descripción: El listado de categorías se debe poder aplicar filtro según cantidad mínima y máxima de cantidad de productos por categoría. 
-
-	- Productos 
-	- Vender
-	- Mi carrito /*Mínimo entregable para el 16-10*/
-	- Mi perfil
-RF02 Editar mi perfil 
-Caracterización: Esencial
-Actor: Usuario
-Descripción: El usuario debe tener la posibilidad de editar sus datos personales salvo aquellos que lo identifiquen como único dentro del sistema, ya sea dirección de correo electrónico, número de teléfono, dirección de facturación y de envíos, métodos de pago, foto de perfil, entre otros. 
-	- Cerrar sesión
+-- Requerimientos Funcionales
+	[Los requerimientos funcionales se encuentran disponibles en otro archivo TXT]
 
 -- Casos de uso
-
-	- Login
-
-CU01
-Nombre Autenticación en el sitio
-Requerimientos: RF01 (¿?)
-Prioridad: Esencial
-Lista de actores: Usuario
-Precondiciones: el usuario se encuentra en la vista de autenticación.
-Curso básico: 
-	1 - El usuario ingresa el nombre de usuario en el campo correspondiente.
-	2 - El usuario ingresa la contraseña en el campo correspondiente.
-	3 - El sitio redirige a la potada en el caso de autenticación existosa
-Curso alternativo 1
-	3 - En caso que la autenticación no haya sido exitosa, el sitio alerta al usuario deque el usuario y/o contraseña no son válidos. 
-	
-	
-	- Inicio
-	- Categorías
-	- Productos 
-	- Vender
-	- Mi carrito /*Mínimo entregable para el 16-10*/
-	- Mi perfil
-	- Cerrar sesión
+	[Los casos de uso se encuentran disponibles en otro archivo TXT]
 
 -- Requerimientos no funcionales 
 
