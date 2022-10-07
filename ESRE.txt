@@ -97,3 +97,86 @@ Descripción: El usuario debe tener la posibilidad de editar sus datos personale
 	- Cerrar sesión
 
 -- Requerimientos no funcionales 
+
+RNF01 
+Nombre: Velocidad de carga de la página
+Atributo de calidad: Eficiencia 
+Caracterización: Esencial 
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web cargue lo suficientemente rápido
+
+RNF02 
+Nombre: Esquema de colores coherente
+Atributo de calidad: Amigabilidad
+Caracterización: Esencial 
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web tenga un esquema de colores identificable
+
+RNF03 
+Nombre: Logo identificativo de eMercado
+Atributo de calidad: Reconocimiento de la marca
+Caracterización: Opcional
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web tenga un logo de la marca que lo identifique
+
+RNF04
+Nombre: Planes de pago 
+Atributo de calidad: Atractivo de venta
+Caracterización: Opcional 
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web muestre los planes de pago disponibles en la página principal
+
+
+RNF05
+Nombre: Promociones
+Atributo de calidad: Atractivo de venta
+Caracterización: Opcional 
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web muestre las ofertas actuales en promoción
+
+
+
+RNF06    
+Nombre: Condiciones de uso
+Atributo de calidad: Reglamentación
+Caracterización: Esencial
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web tenga un link a las condiciones de uso en donde se especifican los límites y el alcance de la plataforma.
+
+
+RNF07
+Nombre: Seguridad de pago
+Atributo de calidad: Seguridad
+Caracterización: Esencial
+Requerimientos funcionales relacionados:
+Notas: Que el sitio web utiliza MercadoPago para confirmar las transacciones.
+
+RNF08
+Nombre: Seguridad de usuario
+Atributo de calidad: Seguridad
+Caracterización: Esencial
+Requerimientos funcionales relacionados:
+Notas: Que los usuarios registrados se almacenan en una base de datos que esté encriptada bajo SHA256
+
+RNF09
+Nombre: Capacidad de atender grandes cantidades de usuarios
+Atributo de calidad: Eficiciencia
+Caracterización: Esencial
+Requerimientos funcionales relacionados:
+Notas: Que el sistema tenga escalabilidad a un número no determinado de usuarios y que se comporte de la misma manera.
+
+RNF09
+Nombre: Facilidad de manuntención
+Atributo de calidad: Mantenibilidad
+Caracterización: Esencial
+Requerimientos funcionales relacionados:
+Notas: Que el sistema cuente con identificadores que sean de uso común, que simplifique la realización de cambios y mantenimiento general del sistema.
+
+
+
+RNF10
+Nombre: Compatibilidad con redes sociales
+Atributo de calidad: Interoperabilidad
+Caracterización: Opcional
+Requerimientos funcionales relacionados:
+Notas: Que el sistema tenga integrado una herramienta que permita compartir el contenido del sitio en diferentes redes sociales de manera sencilla. 
