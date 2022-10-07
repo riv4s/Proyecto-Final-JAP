@@ -18,7 +18,7 @@ E-Mercado
 
 -- Historial de cambios
 
-	- Versión 0.1
+	- Versión 0.01
 	- Fecha 06/OCT/22
 	- Responsable: Mauricio Rivas
 		- Creación del documento y primeros pasos.
@@ -28,7 +28,7 @@ E-Mercado
 		- Primera redacción de los Requerimientos Funcionales
 		- Primera redacción de los casos de uso
 		- Primera redacción de los Requerimientos no funcionales
-	- Versión 0.2
+	- Versión 0.02
 	- Fecha 07/OCT/22
 	- Responsable: Mauricio Rivas
 		- Se agregan los requerimientos funcionales, casos de uso y requerimientos no funcionales que se encuentran en la template original
