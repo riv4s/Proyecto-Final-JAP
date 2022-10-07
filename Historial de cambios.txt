@@ -23,3 +23,5 @@
 		- Se agregan los primeros requerimientos funcionales para "vender"
 		- Se agregan los primeros requerimientos funcionales para "carrito"
 		- Se modifica el requerimiento no funcional que explicitaba la utilización de MercadoPago para concretar el proceso de venta de uno o varios productos.
+		- Se agregan los primeros requerimientos funcionales para "productos"
+		- Se agrega lo que está fuera de alcance por el producto 

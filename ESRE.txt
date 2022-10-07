@@ -25,6 +25,7 @@ E-Mercado
 
 -- Alcance
 	- eMercado es una herramienta de ecommerce B2B y B2C masivo, que busca posicionarse como alternativa a diferentes actores y empresas en el rubro brindando un servicio moderno e intuitivo, que se adapte tanto a ordenadores de escritorio como dispositivos móviles. 
+	Por lo tanto, eMercado no es una plataforma de interacción social, ni permite la comunicación directa entre usuarios. Tampoco tiene un fin de realizar marketing de los productos específicos o marcas que operen dentro del sitio.
 
 -- Definiciones, Siglas y Abreviaturas
 
