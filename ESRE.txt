@@ -1,0 +1,99 @@
+Nombre de la empresa: R QA 
+
+Mauricio Rivas - 06-10-2022
+
+Especificación de Requerimientos 
+E-Mercado
+
+
+-- Índice 
+	- Historial de cambios
+	- Introducción
+	- Alcance
+	- Definición, siglas y abreviaturas
+	- Especificación de requerimientos funcionales
+		- Requerimientos funcionales en Categorías
+	- Especificación con casos de uso
+	- Especificación de requerimientos no funcionales 
+
+-- Historial de cambios
+
+	- Versión 0.1
+	- Fecha 06/OCT/22
+	- Responsable: Mauricio Rivas
+		- Creación del documento y primeros pasos.
+		- Primera redacción de la Introducción.
+		- Primera redacción de la Introducción.	
+		- Primeras entradas de la sección "Definiciones, siglas y abreviaturas"
+		- Primera redacción de los Requerimientos Funcionales
+		- Primera redacción de los casos de uso
+		- Primera redacción de los Requerimientos no funcionales
+
+
+-- Introducción 
+	- En este documento se detallan todos los pormenores de la especificación de requerimientos de la página web y sistema de ecommerce para el producto eMercado. En este documento se detalla desde la especificación de requerimientos así como sus casos de uso, y los requerimientos no funcionales. Este documento va a tener versionado por fecha y por edición y el objetivo es que el historial de cambios quede registrado en Github. 
+
+-- Alcance
+	- eMercado es una herramienta de ecommerce B2B y B2C masivo, que busca posicionarse como alternativa a diferentes actores y empresas en el rubro brindando un servicio moderno e intuitivo, que se adapte tanto a ordenadores de escritorio como dispositivos móviles. 
+
+-- Definiciones, Siglas y Abreviaturas
+
+	- ecommerce "El e-commerce o comercio electrónico consiste en la distribución, venta, compra, marketing y suministro de información de productos o servicios a través de Internet."
+	- B2B Business to business: "Comercialización de productos o servicios con una empresa o profesional como cliente"
+	- B2C	Business to Customer/consumer: "Comercialización de productos y servicios con una persona particular como cliente"
+
+-- Requerimientos funcionales
+
+	- Login 
+
+RF01 	Crear una cuenta
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad (y la obligación si quiere concretar una compra) de registrar un usuario válido que lo identifique.
+
+RF 03 Eliminar una cuenta
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de eliminar los datos personales del sistema, incluyendo toda la información personal, a excepción de aquellos que lo identifican como único dentro del sistema. Esta opción no debe ser reversible y los identificadores deben quedar inhabilitados para cualquier otro usuario nuevo o existente.
+
+RF 04 Iniciar sesión
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile de ingresar sus credenciales de usuario para poder identificarse en el mismo. Si bien se puede navegar y revisar artículos dentro del sistema, para poder finalizar una compra el usuario debe contar con credenciales válidas para confirmar la transacción.
+
+RF 05 Cerrar sesión
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile de revocar las credenciales otorgadas al equipo con el cual está navegando. Luego de cerrar sesión es importante que el usuario no vuelva a tener acceso al carrito pero que de cualquier manera pueda seguir navegando por el sistema.
+
+RF 06 Cerrar sesión en otros dispositivos
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile, siempre y cuando tenga credenciales confirmadas con un usuario, de tener un listado de dispositivos en los cuales sus credenciales se encuentren ingresadas y debe poder contar con la opción de cerrar su sesión en otros dispositivos remotamente.
+
+
+
+	- Inicio
+	- Categorías /*(Incluido en el documento template)*/
+	- Productos 
+	- Vender
+	- Mi carrito /*Mínimo entregable para el 16-10*/
+	- Mi perfil
+RF02 Editar mi perfil 
+Caracterización: Esencial
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad de editar sus datos personales salvo aquellos que lo identifiquen como único dentro del sistema, ya sea dirección de correo electrónico, número de teléfono, dirección de facturación y de envíos, métodos de pago, foto de perfil, entre otros. 
+	- Cerrar sesión
+
+-- Casos de uso
+
+	- Login
+	- Inicio
+	- Categorías
+	- Productos 
+	- Vender
+	- Mi carrito /*Mínimo entregable para el 16-10*/
+	- Mi perfil
+	- Cerrar sesión
+
+-- Requerimientos no funcionales 

@@ -1,0 +1,38 @@
+Entrega 16-10
+
+Pautas Individuales
+A partir de la lectura de la propuesta del obligatorio, completar en el template ESRE:
+
+	1- Las secciones
+
+		- Alcance
+		- Definición, siglas y abreviaturas
+		- Introducción
+
+	2- Los requerimientos funcionales
+		
+		- Login
+		- Inicio
+		- Categorías (Incluído en el documento template)
+		- Productos
+		- Vender
+		- Mi carrito **
+		- Mi perfil
+		- Cerrar sesión
+
+	** Al menos debes elaborar todos los requerimientos funcionales que encuentrs en la vista de "Mi Carrito"
+
+Para la estructura en la especificación de estos, tomaremos como referencias el ejemplo del template ESRE.
+
+// Nota: Además de detectar los posibles requerimientos en base a la propuesta y/o a la navegación en el sitio, puedes completar agregando nuevos requerimientos funcionales que creas pertinente a partir del relevamiento en sistemas similares y/o otros que consideres acorde.
+
+	3 - Los casos de uso:
+		
+		- Los casos de uso deben ser elaborados a partir de cada item de navegación (ennumerado en la pauta anterior). Para la estructura en la especificación de estos se tomará como base el ejemplo presentado en el ESRE.
+		- Al menos debes elaborar todos los casos de uso que encuentres en la vista de Mi Carrito.
+
+Pautas Grupales
+
+	1 - Los requerimientos no funcionales. Para este caso pueden ser generalidades en cuanto al sitio, no tienen porqué ser específicos para cada ítem de navegación.
+
+// Nota: además de detectar los posibles a partir de la propuesta, puedes complementar agregando nuevos requerimientos no funcionales que creas pertinente en base al relevamiento de sistemas similares y/o otros que consideres acorde. 
