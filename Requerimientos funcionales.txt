@@ -26,6 +26,12 @@ Caracterización: Esencial
 Actor: Usuario
 Descripción: La aplicación debe contar con una página principal que contenga según corresponda, recomendaciones generales si no se ha iniciado sesión, y recomendaciones personalizadas si se ha iniciado sesión
 
+RF  Página 404
+Caracterización: Esencial
+Actor: Usuario
+Descripción: La aplicación debe contar con una página cuando el usuario intenta ingresar a una URL que no existe, o porque el artículo al que está intentando ingresar fue dado de baja. 
+
+
 	- Categorías /*(Incluido en el documento template)*/
 
 RF-CT01
@@ -90,6 +96,11 @@ Caracterización: Opcional
 Actor: Sistema
 Descripción: El sistema no debe permitir agregar al carrito agregar un artículo de un producto del cual el stock es cero. 
 
+RF  Guardar borrador de un articulo nuevo
+Caracterización: Opcional
+Actor: Usuario
+Descripción: El usuario debe tener la posibilidad mientras crea una nueva publicación para un artículo de guardar los datos que ya ha ingresado aunque estén incompletos en una lista de "borrador" sin publicar a la venta.
+
 
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	
@@ -131,6 +142,7 @@ Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de editar sus datos personales salvo aquellos que lo identifiquen como único dentro del sistema, ya sea dirección de correo electrónico, número de teléfono, dirección de facturación y de envíos, métodos de pago, foto de perfil, entre otros. 
 	
 	- Cerrar sesión
+	
 RF Cerrar sesión
 Caracterización: Esencial 
 Actor: Usuario

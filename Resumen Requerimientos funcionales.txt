@@ -9,7 +9,8 @@ RF  Eliminar una cuenta
 
 	- Inicio
 
-RF  Página de inicio 
+RF  Página de inicio
+RF  Página 404
 
 	- Categorías /*(Incluido en el documento template)*/
 
@@ -27,11 +28,12 @@ RF Búsqueda de un producto
 
 	- Vender
 
-RF Publicar un producto
-RF Cancelar publicación de un producto
-RF Editar un producto a la venta
-RF Pausar una publicación
-RF Stock Cero
+RF  Publicar un producto
+RF  Cancelar publicación de un producto
+RF  Editar un producto a la venta
+RF  Pausar una publicación
+RF  Stock Cero
+RF  Guardar borrador de un articulo nuevo
 
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	
