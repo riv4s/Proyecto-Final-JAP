@@ -1,0 +1,21 @@
+Entrega 16-10
+
+Tareas Pendientes
+
+
+
+
+Tareas Completadas
+Completar las secciones:
+	Alcance
+	Definicion, siglas y abreviaturas
+	Introduccion
+Los requerimientos funcionales
+	Login
+	Inicio
+	Categorias
+	Productos
+	VEnder
+	Mi carrito
+	Mi perfil
+	Cerrar sesion
