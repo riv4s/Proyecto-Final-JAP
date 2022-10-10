@@ -32,4 +32,5 @@
 		- Se ennumeran los requerimientos funcionales
 		- Se cambia nombre [CU01 a CU02] y  [RF01 -> RF002] para que coincida con el RF correspondiente.
 		- Se cambia [Autenticación en el sitio -> Iniciar sesión] en CU02
-		- Se agregan los casos de uso CU01, CU02, CU03, CU04
+		- Se agregan los casos de uso CU01, CU02, CU03, CU04, CU05, CU06, CU07
+		- Se agrega el RNF11

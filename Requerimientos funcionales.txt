@@ -67,7 +67,6 @@ Caracterización: Esencial
 Actor: Usuario 
 Descripción: El usuario debe tener la posibilidad de poder buscar productos según palabras clave que ingresa en un campo destinado a la búsqueda. 
 
-
 	
 	- Vender
 

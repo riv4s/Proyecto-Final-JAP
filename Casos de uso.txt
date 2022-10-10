@@ -60,6 +60,45 @@ Precondiciones: Haber ingresado al sitio web, sin importar si tiene no credencia
 Curso básico:
 	1 - El usuario ingresa la URL del sitio, o accede al mismo a través de un link que obtuvo de un tercero.
 	2 - El sistema muestra la página principal del sitio con recomendaciones genéricas si no tiene cookies previas. 
+No hay cursos alternativos.
+
+CU05
+Nombre: Página 404
+Requerimientos: RF 005
+Prioridad: Opcional
+Lista de actores: Usuario
+Precondiciones: Ninguna.
+Curso básico:
+	1 - El usuario obtiene un link de una página web de un artículo que actualmente no fue eliminado por el vendedor. 
+	2 - El usuario al ingresar al link es redirigido a la página 404 que le indica que la página a la que intenta acceder no existe o ya no está disponible y le otorga un link para volver a la páginad de inicio. 
+No hay cursos alternativos
+
+CU006
+Nombre: Detalles de un producto.
+Requerimientos: RF006
+Prioridad: Esencial 
+Lista de actores: Usuario
+Precondiciones: Encontrarse en la página de inicio, haber realizado una búsqueda o haber filtrado por categoría.
+Curso básico: 
+	1 - El usuario selecciona un artículo al hacerle click y el sistema lo redirige a la página específica del artículo.
+	2 - El usuario vé en esta página todos lo detalles y la información del artículo previamente seleccionado.
+No hay cursos alternativos
+
+CU07
+Nombre: Búsqueda de un producto 
+Requerimientos: RF 007
+Prioridad: Esencial
+Lista de actores: Usuario
+Precondiciones: Encontrarse en la página de inicio. 
+Curso básico: 
+	1 - El usuario hace click en el field de búsqueda e ingresa una o varias palabras clave de un producto.
+	2 - El sistema procesa la solicitud y redirige al usuario hacia una página con un listado de los productos que coinciden total o parcialmente con la búsqueda del usuario.
+Curso alternativo 1
+	2 - El usuario ingresa palabras claves de un producto que no existe en la base de datos o no está permitida su venta.
+	3 - El usuario es redirigido a una página similar a la 404, donde se le indica que no hay ningún producto que coincida con su búsqueda.
+Curso alternativo 2
+	2 - El usuario ingresa en el campo de búsqueda un string que no coincide con un tipo de palabra clave, ya sean números, o el nombre de un vendedor. 
+	3 - El usuario es redigido a una página similar a la 404 donde se le indica que no hay ningún producto que coincida con su búsqueda.
 
 	- Categorías
 	- Productos 
@@ -67,3 +106,15 @@ Curso básico:
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	- Mi perfil
 	- Cerrar sesión
+	
+	
+	
+	
+
+CU0
+Nombre:
+Requerimientos:
+Prioridad
+Lista de actores:
+Precondiciones
+Curso básico

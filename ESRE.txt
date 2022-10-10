@@ -129,3 +129,11 @@ Atributo de calidad: Interoperabilidad
 Caracterización: Opcional
 Requerimientos funcionales relacionados:
 Notas: Que el sistema tenga integrado una herramienta que permita compartir el contenido del sitio en diferentes redes sociales de manera sencilla. 
+
+
+RNF11
+Nombre: Sin coincidencia para una búsqueda
+Atributo de Calidad: Información de navegación (¿?)
+Caracterización: Opcional
+Requerimientos funcionales relacionados: RF007
+Notas: Que el sistema indique que el campo ingresado para una búsqueda de un producto no devuelve ninguna coincidencia con ningún producto.

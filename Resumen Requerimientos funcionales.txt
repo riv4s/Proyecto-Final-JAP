@@ -21,7 +21,7 @@ RF-CT03  Aplicar filtro en categorías
 	- Productos 
 	
 RF 006 Detalles de un producto
-RF 007Búsqueda de un producto	
+RF 007 Búsqueda de un producto	
 
 	- Vender
 
