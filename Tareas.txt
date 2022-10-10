@@ -2,6 +2,15 @@ Entrega 16-10
 
 Tareas Pendientes
 
+Los casos de uso
+	Login			[COMPLETADO]
+	Inicio			[COMPLETADO]
+	Categorias		[PENDIENTE]
+	Productos		[PENDIENTE]
+	Vender			[PENDIENTE]
+	Mi carrito		[PENDIENTE]**
+	Mi perfil		[PENDIENTE]
+	Cerrar sesion	[PENDIENTE]
 
 
 

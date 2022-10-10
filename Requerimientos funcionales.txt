@@ -44,7 +44,7 @@ RF098
 Nombre: Aplicar orden categorías
 Caracterización: Esencial
 Actor: Usuario
-Descripción El listado de categorías se debe poder depslegar según 3 criterios: 
+Descripción El listado de categorías se debe poder desplegar según 3 criterios: 
 		- Orden ascendente alfabético según el nombre.
 		- Orden descendente alfabético según el nombre.
 		- Orden descendente en cantidad de productos por categoría.
@@ -54,6 +54,18 @@ Nombre: Aplicar filtro en categorías
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El listado de categorías se debe poder aplicar filtro según cantidad mínima y máxima de cantidad de productos por categoría. 
+
+RF096
+Nombre: Ordenar artículos por precio en categorías
+Caracterización: Opcional
+Actor: Usuario
+Descripción: Al acceder a una categoría el usuario debe tener la posibilidad de ordenar los artículos según precio ascendente o descendente. 
+
+RF095
+Nombre: Filtrar articulos en un rango de precios en categoría. 
+Caracterización: Opcional
+Actor: Usuario
+Descripción: Al acceder a una categoría el usuario debe tener la posibilidad de filtrar los artículos entre un rango de precios. 
 
 	- Productos 
 	
