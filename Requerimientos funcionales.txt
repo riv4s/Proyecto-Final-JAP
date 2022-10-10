@@ -34,13 +34,13 @@ Descripción: La aplicación debe contar con una página cuando el usuario inten
 
 	- Categorías /*(Incluido en el documento template)*/
 
-RF-CT01
+RF099
 Nombre: Vista categorías
 Caracterización: Esencial
 Actor: Usuario
 Descripción: En la vista del listado de categorias se deberán desplegar todas las categorías existentes en el sistema, con sus respectivos datos: nombre, cantidad de productos, ilustración y desscripción.
 
-RF-CT02
+RF098
 Nombre: Aplicar orden categorías
 Caracterización: Esencial
 Actor: Usuario
@@ -49,7 +49,7 @@ Descripción El listado de categorías se debe poder depslegar según 3 criterio
 		- Orden descendente alfabético según el nombre.
 		- Orden descendente en cantidad de productos por categoría.
 	
-RF-CT03 
+RF097
 Nombre: Aplicar filtro en categorías
 Caracterización: Esencial
 Actor: Usuario
@@ -67,7 +67,6 @@ Caracterización: Esencial
 Actor: Usuario 
 Descripción: El usuario debe tener la posibilidad de poder buscar productos según palabras clave que ingresa en un campo destinado a la búsqueda. 
 
-	
 	- Vender
 
 RF 008 Publicar un producto

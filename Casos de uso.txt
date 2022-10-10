@@ -73,7 +73,17 @@ Curso básico:
 	2 - El usuario al ingresar al link es redirigido a la página 404 que le indica que la página a la que intenta acceder no existe o ya no está disponible y le otorga un link para volver a la páginad de inicio. 
 No hay cursos alternativos
 
-CU006
+
+	- Categorías
+CU99
+
+CU98
+
+CU97
+	
+	- Productos 
+	
+	CU06
 Nombre: Detalles de un producto.
 Requerimientos: RF006
 Prioridad: Esencial 
@@ -99,9 +109,7 @@ Curso alternativo 1
 Curso alternativo 2
 	2 - El usuario ingresa en el campo de búsqueda un string que no coincide con un tipo de palabra clave, ya sean números, o el nombre de un vendedor. 
 	3 - El usuario es redigido a una página similar a la 404 donde se le indica que no hay ningún producto que coincida con su búsqueda.
-
-	- Categorías
-	- Productos 
+	
 	- Vender
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	- Mi perfil
