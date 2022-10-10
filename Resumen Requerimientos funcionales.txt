@@ -3,52 +3,49 @@ Resumen Requerimientos funcionales
 	
 	- Login 
 	
-RF 	Crear una cuenta
-RF  Iniciar sesión
-RF  Eliminar una cuenta
+RF 001 Crear una cuenta
+RF 002 Iniciar sesión
+RF 003 Eliminar una cuenta
 
 	- Inicio
 
-RF  Página de inicio
-RF  Página 404
+RF 004 Página de inicio
+RF 005 Página 404
 
 	- Categorías /*(Incluido en el documento template)*/
 
-RF-CT01
-Nombre: Vista categorías
-RF-CT02
-Nombre: Aplicar orden categorías
-RF-CT03 
-Nombre: Aplicar filtro en categorías
+RF-CT01  Vista categorías
+RF-CT02  Aplicar orden categorías
+RF-CT03  Aplicar filtro en categorías
 
 	- Productos 
 	
-RF Detalles de un producto
-RF Búsqueda de un producto	
+RF 006 Detalles de un producto
+RF 007Búsqueda de un producto	
 
 	- Vender
 
-RF  Publicar un producto
-RF  Cancelar publicación de un producto
-RF  Editar un producto a la venta
-RF  Pausar una publicación
-RF  Stock Cero
-RF  Guardar borrador de un articulo nuevo
+RF 008 Publicar un producto
+RF 009 Cancelar publicación de un producto
+RF 010 Editar un producto a la venta
+RF 011 Pausar una publicación
+RF 012 Stock Cero
+RF 013 Guardar borrador de un articulo nuevo
 
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	
-RF Agregar al carrito
-RF Ver carrito
-RF Finalizar compra
-RF Eliminar un producto del carrito
-RF Vaciar carrito
-RF Modificar cantidad de un articulo
+RF 014 Agregar al carrito
+RF 015 Ver carrito
+RF 016 Finalizar compra
+RF 017 Eliminar un producto del carrito
+RF 018 Vaciar carrito
+RF 019 Modificar cantidad de un articulo
 
 	- Mi perfil
 
-RF Editar mi perfil 
+RF 020 Editar mi perfil
 	
 	- Cerrar sesión
 	
-RF Cerrar sesión
-RF Cerrar sesión en otros dispositivos
+RF 021 Cerrar sesión
+RF 022 Cerrar sesión en otros dispositivos

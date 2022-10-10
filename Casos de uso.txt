@@ -3,10 +3,25 @@ Documento de Casos de Uso
 -- Casos de uso
 
 	- Login
-
 CU01
-Nombre Autenticación en el sitio
-Requerimientos: RF01 (¿?)
+Nombre: Crear una cuenta
+Requerimientos: RF 001
+Prioridad: Esencial
+Lista de actores: Usuario
+Precondiciones: El usuario no cuenta con credenciales validadas en el sitio y se encuentra en la página inicial del mismo.
+Curso básico:
+	1 - El usuario hace click en [Registrarse] o botón similar.
+	2 - El usuario completa un formulario donde introduce los datos
+	3 - Al confirmar los datos el sitio redirige a una página web donde solicita que confirme la dirección de correo electrónico. 
+	4 - Si el usuario confirma el correo electrónico, el usuario debe pasar al caso de uso CU02
+Curso alternativo 1
+	3 - Si el mail ya se encuentra registrado el sistema no debe permitir que el formulario se confirme, y debe mostrar un mensaje que indique esto y otorgue la opción de ir al caso de uso CU2.
+Curso alternativo 2
+	3 - Si el usuario no introduce algún campo requerido, el sistema no debe permitir que el formulario se confirme. 
+
+CU02
+Nombre Iniciar sesión
+Requerimientos: RF 002 
 Prioridad: Esencial
 Lista de actores: Usuario
 Precondiciones: el usuario se encuentra en la vista de autenticación.
@@ -16,9 +31,36 @@ Curso básico:
 	3 - El sitio redirige a la potada en el caso de autenticación existosa
 Curso alternativo 1
 	3 - En caso que la autenticación no haya sido exitosa, el sitio alerta al usuario deque el usuario y/o contraseña no son válidos. 
-	
-	
+
+CU03
+Nombre: Eliminar una cuenta
+Requerimientos: RF003
+Prioridad: Opcional
+Lista de actores: Usuario
+Precondiciones: El usuario se encuentra con credenciales válidas en el sistema.
+Curso básico: 
+	1 - El usuario accede a la sección de perfil 
+	2 - El usuario le indica al sistema que quiere modificar su perfil.
+	3 - El usuario se dirige al botón de [eliminar cuenta]
+	4 - El usuario confirma 3 veces que desea eliminar sus datos del sistema, y el sistema le advierte que no va a poder recuperar su datos, y que no va a poder registrar una cuenta nueva con la misma dirección de correo. 
+	5 - El sistema pide que ingrese su contraseña asociada a la cuenta.
+	6 - El sistema indica que la cuenta ha sido eliminada con éxito.
+Curso alternativo 1:
+	4 - El usuario desiste de eliminar la cuenta en cualquiera de los siguientes pasos y automáticamente se redirige a la página de inicio o a la página de editar perfil. 
+
+
 	- Inicio
+	
+CU04
+Nombre: Página Principal.
+Requerimientos: RF004
+Prioridad: Esencial
+Lista de Actores: Usuario
+Precondiciones: Haber ingresado al sitio web, sin importar si tiene no credenciales válidas. 
+Curso básico:
+	1 - El usuario ingresa la URL del sitio, o accede al mismo a través de un link que obtuvo de un tercero.
+	2 - El sistema muestra la página principal del sitio con recomendaciones genéricas si no tiene cookies previas. 
+
 	- Categorías
 	- Productos 
 	- Vender

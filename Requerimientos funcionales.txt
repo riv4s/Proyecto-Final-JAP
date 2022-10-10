@@ -4,29 +4,29 @@ Documento de Requerimientos funcionales
 
 	- Login 
 	
-RF 	Crear una cuenta
+RF 001	Crear una cuenta
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad (y la obligación si quiere concretar una compra) de registrar un usuario válido que lo identifique.
 
-RF  Iniciar sesión
+RF 002 Iniciar sesión
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile de ingresar sus credenciales de usuario para poder identificarse en el mismo. Si bien se puede navegar y revisar artículos dentro del sistema, para poder finalizar una compra el usuario debe contar con credenciales válidas para confirmar la transacción.
 
-RF  Eliminar una cuenta
+RF 003 Eliminar una cuenta
 Caracterización: Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de eliminar los datos personales del sistema, incluyendo toda la información personal, a excepción de aquellos que lo identifican como único dentro del sistema. Esta opción no debe ser reversible y los identificadores deben quedar inhabilitados para cualquier otro usuario nuevo o existente.
 
 	- Inicio
 
-RF  Página de inicio 
+RF 004 Página de inicio 
 Caracterización: Esencial
 Actor: Usuario
 Descripción: La aplicación debe contar con una página principal que contenga según corresponda, recomendaciones generales si no se ha iniciado sesión, y recomendaciones personalizadas si se ha iniciado sesión
 
-RF  Página 404
+RF 005 Página 404
 Caracterización: Esencial
 Actor: Usuario
 Descripción: La aplicación debe contar con una página cuando el usuario intenta ingresar a una URL que no existe, o porque el artículo al que está intentando ingresar fue dado de baja. 
@@ -57,12 +57,12 @@ Descripción: El listado de categorías se debe poder aplicar filtro según cant
 
 	- Productos 
 	
-RF Detalles de un producto
+RF 006 Detalles de un producto
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de ingresar a los detalles de un producto al seleccionarlo directamente. 
 
-RF Búsqueda de un producto
+RF 007 Búsqueda de un producto
 Caracterización: Esencial
 Actor: Usuario 
 Descripción: El usuario debe tener la posibilidad de poder buscar productos según palabras clave que ingresa en un campo destinado a la búsqueda. 
@@ -71,32 +71,32 @@ Descripción: El usuario debe tener la posibilidad de poder buscar productos seg
 	
 	- Vender
 
-RF Publicar un producto
+RF 008 Publicar un producto
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de acceder a un asistente o similar que le permita completar información sobre un producto que tiene a su disposición para la venta. 
 
-RF Cancelar publicación de un producto
+RF 009 Cancelar publicación de un producto
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de poder cancelar la publicación de un producto que tiene a la venta, siempre y cuando este tenga un stock positivo.
 
-RF Editar un producto a la venta
+RF 010 Editar un producto a la venta
 Caracterización: Esencial/Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de editar una publicación de un producto que ya haya publicado, inclusive si este tuviese un stock de cero.
 
-RF Pausar una publicación
+RF 011 Pausar una publicación
 Caracterización: Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de cancelar una publicación de un producto que haya publicado, incluso si este tuviese un stock de cero. 
 
-RF Stock Cero
+RF 012 Stock Cero
 Caracterización: Opcional
 Actor: Sistema
 Descripción: El sistema no debe permitir agregar al carrito agregar un artículo de un producto del cual el stock es cero. 
 
-RF  Guardar borrador de un articulo nuevo
+RF 013 Guardar borrador de un articulo nuevo
 Caracterización: Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad mientras crea una nueva publicación para un artículo de guardar los datos que ya ha ingresado aunque estén incompletos en una lista de "borrador" sin publicar a la venta.
@@ -104,51 +104,51 @@ Descripción: El usuario debe tener la posibilidad mientras crea una nueva publi
 
 	- Mi carrito /*Mínimo entregable para el 16-10*/
 	
-RF Agregar al carrito
+RF 014 Agregar al carrito
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de agregar cualquier producto a un carrito de compras único por sesión, se encuentre o no conectado con credenciales válidas.
 
-RF Ver carrito
+RF 015 Ver carrito
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de visualizar el estado actual del carrito de compras con los elementos que haya seleccionado, o ver un carrito vacío en caso de que no haya seleccionado ningún producto.
 
-RF Finalizar compra
+RF 016 Finalizar compra
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de concretar la compra con los items que tiene dentro de su carrito, pero para esto debe contar con credenciales válidas. 
 
-RF Eliminar un producto del carrito
+RF 017 Eliminar un producto del carrito
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de eliminar un articulo del carrito siempre y cuando este exista dentro del mismo.
 
-RF Vaciar carrito
+RF 018 Vaciar carrito
 Caracterización: Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de eliminar todos los articulos del carrito siempre y cuando tenga al menos un articulo en el mismo.
 
-RF Modificar cantidad de un articulo
+RF 019 Modificar cantidad de un articulo
 Caracterización: Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de cambiar la cantidad de existencias de un artículo en específico que tiene dentro del carrito. 
 
 	- Mi perfil
 
-RF Editar mi perfil 
+RF 020 Editar mi perfil 
 Caracterización: Esencial
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de editar sus datos personales salvo aquellos que lo identifiquen como único dentro del sistema, ya sea dirección de correo electrónico, número de teléfono, dirección de facturación y de envíos, métodos de pago, foto de perfil, entre otros. 
 	
 	- Cerrar sesión
 	
-RF Cerrar sesión
+RF 021 Cerrar sesión
 Caracterización: Esencial 
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad de cerrar sesión en cualquier momento durante su navegación. 
 
-RF Cerrar sesión en otros dispositivos
+RF 022 Cerrar sesión en otros dispositivos
 Caracterización: Opcional
 Actor: Usuario
 Descripción: El usuario debe tener la posibilidad en cualquier momento de la navegación por el sistema web o mobile, siempre y cuando tenga credenciales confirmadas con un usuario, de tener un listado de dispositivos en los cuales sus credenciales se encuentren ingresadas y debe poder contar con la opción de cerrar su sesión en otros dispositivos remotamente.
